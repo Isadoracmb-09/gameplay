@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, TextInput } from 'react-native';
 
 export function siglnin() {
   return (
@@ -13,7 +13,7 @@ export function siglnin() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#4a0000ff',
     alignItems: 'center',
     justifyContent: 'center',
   },
